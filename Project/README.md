@@ -12,4 +12,4 @@
 | КИМ | Задача | Набор данных | Индикатор / уровень | Защита | Рубрика |
 | --- | --- | --- | --- | --- | --- |
 | [КИМ-01](kim-01-mlp-multiclass.md) | Разработка моделей MLP для многоклассовой классификации | Default of Credit Card Clients | DL-1.2, DL-1.1 / Б | ПР 5 | [рубрика-01](rubric-01-mlp-multiclass.md) |
-| [КИМ-02](kim-02-cnn-recognition.md) | Разработка моделей CNN для распознавания образов | PlantVillage | **DL-1.4, DL-1.12** / Б | ПР 10 | [рубрика-02](rubric-02-cnn-recognition.md) |
+| [КИМ-02](kim-02-cnn-recognition.md) | Разработка моделей CNN для распознавания образов | PlantVillage | **DL-1.3, DL-1.4, DL-1.12** / Б | ПР 10 | [рубрика-02](rubric-02-cnn-recognition.md) |

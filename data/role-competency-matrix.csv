@@ -9,10 +9,12 @@ ML Engineer,ML Engineer (инженер по машинному обучению
 ML Researcher,ML Researcher (исследователь МО),DL-1,DL-1.1,Б,"Научные исследования и эксперименты",M2-PR7,M2-complex-models/kim-07-regularization.md
 ML Researcher,ML Researcher (исследователь МО),DL-1,DL-1.1,Б,"Научные исследования и эксперименты",M2-PR8,M2-complex-models/kim-08-gradient-stabilization.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.1,Б,"Оптимизация производительности и масштабирование моделей",M2-PR9,M2-complex-models/kim-09-optimizers.md
+ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.3,Б,"Применение основных архитектур глубокого обучения",M2-PR10,M2-complex-models/kim-10-cnn.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.4,Б,"Разработка архитектур для изображений",M2-PR10,M2-complex-models/kim-10-cnn.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.12,Б,"Дообучение и адаптация моделей",M2-PR10,M2-complex-models/kim-10-cnn.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.2,Б,"Реализация неглубоких нейронных сетей",PROJECT-PR5,Project/kim-01-mlp-multiclass.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.1,Б,"Техническая реализация процедур обработки данных",PROJECT-PR5,Project/kim-01-mlp-multiclass.md
+ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.3,Б,"Применение основных архитектур глубокого обучения",PROJECT-PR10,Project/kim-02-cnn-recognition.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.4,Б,"Разработка архитектур для изображений",PROJECT-PR10,Project/kim-02-cnn-recognition.md
 ML Engineer,ML Engineer (инженер по машинному обучению),DL-1,DL-1.12,Б,"Дообучение и адаптация моделей",PROJECT-PR10,Project/kim-02-cnn-recognition.md
 ML Researcher,ML Researcher (исследователь МО),MF-1,MF-1.2,С,"Доклад на конференции по ИИ (опционально)",CONFERENCE,README.md#итоговая-оценка
