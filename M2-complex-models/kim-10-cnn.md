@@ -26,6 +26,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr10-cnn-starter.ipynb`](attachments/pr10-cnn-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - MNIST, CIFAR-10, SVHN — [`resources/datasets/`](../resources/datasets/README.md).
 - torchvision (предобученная ResNet-18) — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 10 «Разработка свёрточных нейронных сетей».

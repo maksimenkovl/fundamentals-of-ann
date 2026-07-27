@@ -23,6 +23,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr07-regularization-starter.ipynb`](attachments/pr07-regularization-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - PyTorch — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 7 «Регуляризация (борьба с переобучением)».
 

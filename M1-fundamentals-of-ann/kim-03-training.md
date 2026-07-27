@@ -23,6 +23,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr03-training-starter.ipynb`](attachments/pr03-training-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - numpy, matplotlib — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 3 «Обучение нейронной сети».
 
