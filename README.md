@@ -88,6 +88,7 @@
 - **Стартовые ноутбуки** для всех ПР и кейсов — в `attachments/` модулей: [ПР 1–4](M1-fundamentals-of-ann/attachments/), [ПР 5–10](M2-complex-models/attachments/), [кейсы](Project/attachments/).
 - **Загрузка датасетов** — [`scripts/download_data.py`](scripts/download_data.py) (MNIST, CIFAR-10, SVHN, UCI Credit; инструкция по PlantVillage — в `--help`).
 - **Smoke-тесты окружения** — `pytest tests/` (~1 минута, CPU): проверяют версии пакетов, воспроизводимость seed и работоспособность минимальных MLP/CNN.
+- **Проверка ссылок и структуры** — `python scripts/check_links.py`: внутренние ссылки и якоря во всех Markdown и ноутбуках, пары КИМ/рубрика, обязательные разделы КИМ, шкала рубрик, согласованность БРС. Автоматически запускается в CI (`.github/workflows/check.yml`) на каждый push и pull request.
 
 ## 6. Структура репозитория
 
@@ -97,7 +98,7 @@ fundamentals-of-ann/
 ├── LICENSE.md
 ├── .gitignore
 ├── requirements.txt           (окружение Python)
-├── scripts/                   (загрузка датасетов)
+├── scripts/                   (загрузка датасетов, проверка ссылок и структуры)
 ├── tests/                     (smoke-тесты окружения)
 ├── docs/                      (РПД, портреты уровней, воспроизводимость)
 ├── M1-fundamentals-of-ann/    (ПР 1–4 + рубрики + стартовые ноутбуки)
