@@ -23,6 +23,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr06-minibatch-gd-starter.ipynb`](attachments/pr06-minibatch-gd-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - MNIST, CIFAR-10, SVHN — [`resources/datasets/`](../resources/datasets/README.md).
 - numpy, PyTorch — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 6 «Градиентный спуск по мини-батчам (Mini-batch GD). Оценка Latency и Throughput».

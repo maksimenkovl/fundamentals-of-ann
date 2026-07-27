@@ -24,6 +24,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr02-mlp-prep-starter.ipynb`](attachments/pr02-mlp-prep-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - numpy — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 2 «Построение многослойного персептрона. Подготовка к обучению».
 

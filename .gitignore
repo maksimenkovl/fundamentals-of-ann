@@ -27,3 +27,9 @@ validation-report.txt
 *.pth
 *.ckpt
 *.h5
+
+# Локально загружаемые датасеты (scripts/download_data.py)
+data/mnist/
+data/torchvision/
+data/uci_credit/
+data/plantvillage/

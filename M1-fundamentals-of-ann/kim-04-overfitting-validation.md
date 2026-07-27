@@ -24,6 +24,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr04-overfitting-validation-starter.ipynb`](attachments/pr04-overfitting-validation-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - scikit-learn, matplotlib — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 4 «Диагностика переобучения и валидация нейронной сети».
 

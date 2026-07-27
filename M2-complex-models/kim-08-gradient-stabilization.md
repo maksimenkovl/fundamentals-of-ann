@@ -23,6 +23,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr08-gradient-stabilization-starter.ipynb`](attachments/pr08-gradient-stabilization-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - MNIST — [`resources/datasets/`](../resources/datasets/README.md).
 - PyTorch — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 8 «Стабилизация градиентов и ускорение обучения».

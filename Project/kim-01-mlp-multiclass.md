@@ -24,6 +24,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/case1-mlp-multiclass-starter.ipynb`](attachments/case1-mlp-multiclass-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - Набор данных **Default of Credit Card Clients** — UCI ML Repository: [`resources/datasets/`](../resources/datasets/README.md).
 - numpy, scikit-learn — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 

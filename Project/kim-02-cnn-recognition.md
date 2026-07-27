@@ -26,6 +26,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/case2-cnn-recognition-starter.ipynb`](attachments/case2-cnn-recognition-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - Набор данных **PlantVillage Dataset** — Kaggle: [`resources/datasets/`](../resources/datasets/README.md).
 - PyTorch, torchvision — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 

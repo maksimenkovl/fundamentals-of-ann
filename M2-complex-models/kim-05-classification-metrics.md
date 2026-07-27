@@ -26,6 +26,7 @@
 
 ## 5. Материалы и ресурсы
 
+- Стартовый ноутбук-заготовка — [`attachments/pr05-classification-metrics-starter.ipynb`](attachments/pr05-classification-metrics-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - MNIST — [`resources/datasets/`](../resources/datasets/README.md).
 - numpy, matplotlib — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
 - Лекция 5 «Распознавание образов. Метрики бинарной и многоклассовой классификации».

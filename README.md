@@ -80,6 +80,13 @@
 - Преподавателям (оценивание) — [`methodical-guidelines/teachers-assessment/`](methodical-guidelines/teachers-assessment/README.md).
 - Преподавателям (ресурсы) — [`methodical-guidelines/teachers-resources/`](methodical-guidelines/teachers-resources/README.md).
 
+## 5а. Исполняемая часть
+
+- **Окружение** — [`requirements.txt`](requirements.txt) (Python 3.10+); настройка и воспроизводимость — [`docs/reproducibility.md`](docs/reproducibility.md).
+- **Стартовые ноутбуки** для всех ПР и кейсов — в `attachments/` модулей: [ПР 1–4](M1-fundamentals-of-ann/attachments/), [ПР 5–10](M2-complex-models/attachments/), [кейсы](Project/attachments/).
+- **Загрузка датасетов** — [`scripts/download_data.py`](scripts/download_data.py) (MNIST, CIFAR-10, SVHN, UCI Credit; инструкция по PlantVillage — в `--help`).
+- **Smoke-тесты окружения** — `pytest tests/` (~1 минута, CPU): проверяют версии пакетов, воспроизводимость seed и работоспособность минимальных MLP/CNN.
+
 ## 6. Структура репозитория
 
 ```
@@ -87,10 +94,13 @@ fundamentals-of-ann/
 ├── README.md                  (этот файл)
 ├── LICENSE.md
 ├── .gitignore
-├── docs/                      (РПД, портреты уровней)
-├── M1-fundamentals-of-ann/    (ПР 1–4 + рубрики)
-├── M2-complex-models/         (ПР 5–10 + рубрики)
-├── Project/                   (2 кейс-задачи)
+├── requirements.txt           (окружение Python)
+├── scripts/                   (загрузка датасетов)
+├── tests/                     (smoke-тесты окружения)
+├── docs/                      (РПД, портреты уровней, воспроизводимость)
+├── M1-fundamentals-of-ann/    (ПР 1–4 + рубрики + стартовые ноутбуки)
+├── M2-complex-models/         (ПР 5–10 + рубрики + стартовые ноутбуки)
+├── Project/                   (2 кейс-задачи + стартовые ноутбуки)
 ├── Exam/                      (зачёт с оценкой)
 ├── methodical-guidelines/     (students, teachers-assessment, teachers-resources)
 ├── resources/                 (datasets, papers, textbooks, software, test-banks, …)
