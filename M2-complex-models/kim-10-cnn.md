@@ -30,10 +30,12 @@
 - Стартовый ноутбук-заготовка — [`attachments/pr10-cnn-starter.ipynb`](attachments/pr10-cnn-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - MNIST, CIFAR-10, SVHN — [`resources/datasets/`](../resources/datasets/README.md).
 - torchvision (предобученная ResNet-18) — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
+- Только для расширенной части — EfficientNet-B0 и ConvNeXt-Tiny из `torchvision.models`.
 - Лекция 10 «Разработка свёрточных нейронных сетей».
 
 ## 6. Задание
 
+### 6.1. Обязательная часть
 1. Реализовать CNN на PyTorch для MNIST: **2 сверточных слоя** с ReLU и пулингом + полносвязный классификатор. Указать число фильтров, размер ядра, stride, padding; рассчитать размерности карт признаков.
 2. Обучить CNN (train/validation/test, мини-батчи, Adam, регуляризация из ПР 7–8).
 3. Сравнить качество и число параметров с MLP из ПР 5.
@@ -42,6 +44,10 @@
 6. Сравнить полную и частичную заморозку.
 7. Сравнить обучение «с нуля» и дообучение.
 8. Подготовить сводный отчёт по всем моделям.
+   
+### 6.2. Расширенная часть (необязательная)
+
+9. Сравнить ResNet-18 с **EfficientNet-B0** и **ConvNeXt-Tiny** из `torchvision.models`: дообучить в режиме feature extraction на одной и той же подвыборке при одинаковых seed и числе эпох, сопоставить число параметров, время обучения и качество.
 
 ## 7. Формат сдачи
 
