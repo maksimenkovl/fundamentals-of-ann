@@ -30,6 +30,7 @@
 - Стартовый ноутбук-заготовка — [`attachments/pr10-cnn-starter.ipynb`](attachments/pr10-cnn-starter.ipynb); окружение и данные — [`requirements.txt`](../requirements.txt), [`scripts/download_data.py`](../scripts/download_data.py), [`docs/reproducibility.md`](../docs/reproducibility.md).
 - MNIST, CIFAR-10, SVHN — [`resources/datasets/`](../resources/datasets/README.md).
 - torchvision (предобученная ResNet-18) — [`resources/software/python-libs/`](../resources/software/python-libs/README.md).
+- Только для расширенной части — EfficientNet-B0 и ConvNeXt-Tiny из `torchvision.models`.
 - Лекция 10 «Разработка свёрточных нейронных сетей».
 
 ## 6. Задание
@@ -42,9 +43,10 @@
 5. Сравнить полную и частичную заморозку.
 6. Подготовить сводный отчёт по всем моделям.
 
-### 6.2. Расширенная часть
+### 6.2. Расширенная часть (необязательная)
 7. Повторить для CIFAR-10 (опционально SVHN).
 8. Сравнить обучение «с нуля» и дообучение.
+9. Сравнить ResNet-18 с **EfficientNet-B0** и **ConvNeXt-Tiny** из `torchvision.models`: дообучить в режиме feature extraction на одной и той же подвыборке при одинаковых seed и числе эпох, сопоставить число параметров, время обучения и качество.
 
 ## 7. Формат сдачи
 
@@ -63,4 +65,4 @@
 
 ## 10. Вопросы для защиты
 
-34. Свёрточные нейронные сети (CNN). 35. Особенности разработки CNN. 36. Особенности обучения CNN. 37. Методы дообучения; перенос обучения и заморозка слоёв. 48. Архитектуры глубокого обучения (ResNet; обзорно — EfficientNet, ViT).
+34. Свёрточные нейронные сети (CNN). 35. Особенности разработки CNN. 36. Особенности обучения CNN. 37. Методы дообучения; перенос обучения и заморозка слоёв. 48. Архитектуры глубокого обучения: ResNet (остаточные связи); обзорно — EfficientNet (составное масштабирование), ConvNeXt, ViT. Направления развития свёрточных архитектур.
